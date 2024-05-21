@@ -1,0 +1,131 @@
+
+
+.transition-rotation{
+    background-color: rgb(255, 128, 0);
+    height:150px;
+    width: 200px;
+    transition: 1s;
+    margin-top: 20px;
+    border-radius: 0%;
+    
+}
+
+.transition-rotation:hover {
+    background-color: rgb(255, 128, 0);
+    height:150px;
+    width: 200px;
+    transform: rotate(180deg);
+    margin-top: 20px;
+    border-radius: 0%;
+}
+________________________________________________________________________________________________
+
+
+.transition-couleur {
+    background-color:rgb(255, 0, 0);
+    width: 3em;
+    height: 3em;
+
+    margin: auto;
+    position: absolute;
+    left: 0; right: 0; top: 0; bottom: 0;
+
+    transition: 2s;
+}
+
+.transition-couleur:hover{
+    height: 150px;
+    width: 200px;
+    background-color: rgb(242, 255, 0);
+}
+
+.transition-couleur {
+    height:150px;
+    width: 200px;
+    background-color: rgb(255, 0, 0);
+    transition: 2s;
+}
+
+
+
+.transition-echelle{
+    background-color: rgb(255, 255, 0);
+    height:150px;
+    width: 200px;
+    transition: 1s;
+    margin-top: 20px;
+    border-radius: 0%;
+    
+}
+
+.transition-echelle:hover {
+    background-color: rgb(0, 255, 85);
+    height:150px;
+    width: 200px;
+    transform: scale(2,1.5);
+    margin-top: 20px;
+    border-radius: 0%;
+}
+
+
+
+.transition-deplacement{
+    background-color: #11ff00;
+    height:150px;
+    width: 200px;
+    transition: 1s;
+    margin-top: 20px;
+    border-radius: 0%;
+    
+}
+
+.transition-deplacement:hover {
+    background-color: rgb(0, 255, 85);
+    height:150px;
+    width: 200px;
+    transform: translate(800px);
+    margin-top: 20px;
+    border-radius: 0%;
+}
+
+
+
+.transition-opacity{
+    background-color: rgb(0, 191, 255);
+    height:150px;
+    width: 200px;
+    transition: 1s;
+    opacity:100% ;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+
+.transition-opacity:hover {
+    background-color: rgb(0, 191, 255);
+    height:150px;
+    width: 200px;
+    opacity:30% ;
+    margin-top: 20px;
+    margin-right: 20px;
+   
+}
+
+.transition-taille {
+    background-color: rgb(179, 0, 255);
+    height:150px;
+    width: 200px;
+    transition: 1s;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+
+.transition-taille:hover {
+    background-color: rgb(179, 0, 255);
+    height:50px;
+    width: 100px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
